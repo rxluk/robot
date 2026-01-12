@@ -12,7 +12,6 @@ bl  = digitalio.DigitalInOut(board.D18)
 bl.switch_to_output()
 bl.value = True
 
-# Display (do jeito que você já sabe que funciona)
 display = ST7735R(
     board.SPI(),
     cs=cs,

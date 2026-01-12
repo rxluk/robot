@@ -10,7 +10,6 @@ cs = digitalio.DigitalInOut(board.CE0)
 dc = digitalio.DigitalInOut(board.D24)
 rst = digitalio.DigitalInOut(board.D25)
 
-# Ajuste fino ao redor de 24
 offsets = [24, 25, 26, 27, 28]
 
 for offset in offsets:
@@ -30,4 +29,4 @@ for offset in offsets:
     print(f"x_offset={offset} - PRETO")
     time.sleep(3)
 
-print("Qual foi o valor perfeito?")
+print("Analise o melhor valor")
